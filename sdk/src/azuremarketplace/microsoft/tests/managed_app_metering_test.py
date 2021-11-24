@@ -31,7 +31,7 @@ def test_metering():
     subs = subscription_client.subscriptions.list()
 
     managed_app_credential = ClientSecretCredential(
-        client_id=client_id,                                                         v
+        client_id=client_id,
         client_secret=client_secret,
         tenant_id=tenant_id)
 
